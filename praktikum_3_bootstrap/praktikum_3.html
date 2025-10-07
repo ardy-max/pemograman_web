@@ -3,29 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap</title>
+    <title>Praktikum-4</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
+
 <body>
-
-    <!-- navbar -->
-<nav class="navbar navba-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand fw-hold" href="#">Ini bootstrap</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggle-icon">tes</span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Mater</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Kontak</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">map</a></li>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-primary mb-5">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="gambar-removebg-preview.png" alt="Logo" width="30" height="24"
+                    class="d-inline-block align-text-top">
+                CODEC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Dropdown link
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
             </ul>
         </div>
+
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container p-2 mb-5">
+        <div class="row">
+            <div class="col">
+                <p>Welcome to,</p>
+                <h1>Code Challange</h1>
+                <h5>Belajar ngoding bareng kepin</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nulla nisi aliquam non autem minus
+                    tempore, accusantium beatae eius fugiat!</p>
+                <a href="£" class="btn btn-success">Contact me</a>
+            </div>
+            <div class="col text-center">
+                <img src="gambar-removebg-preview.png" alt="codec" width="300">
+            </div>
+        </div>
     </div>
-</nav>
+
+    <!-- 3 Card -->
+    <div class="container">
+        <div class="text-center mb-5">
+            <h1>Card</h1>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="gambar-removebg-preview.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <a href="£" class="btn btn-danger">Pencet</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="gambar-removebg-preview.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <a href="£" class="btn btn-danger">Pencet</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="gambar-removebg-preview.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <a href="£" class="btn btn-danger">Pencet</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="container">
+    <div>CONTACT ME</div>
+    <div class="card p-4" style="width: 18rem;">
+        
+<form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">nama</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Email</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">No hp</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">pesan</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+</div>
 
 <script src="js/bootstrap.bundle.min.js"></script>
 </body>
